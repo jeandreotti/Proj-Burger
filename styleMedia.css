@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+@media (min-width: 450px) and (max-width: 840px){
+    header nav {
+        display: none;
+    }
+    header .menu{
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    header .menu-icon{
+        width: 32px;
+        height: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    header .menu-icon div{
+        height: 6px;
+        background-color: white;
+    } 
+
+/* hero area */
+    .hero .container{
+        flex-direction: column;
+    }
+    .hero .leftside{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .hero .rightside{
+        padding-bottom: 50px;
+    }
+    .hero .rightside img{
+        height: 300px;
+    }
+    .hero h1{
+        font-size: 44px;
+        line-height: 50px;
+    }
+    /* search area */
+
+    .search{
+        padding-bottom: 30px;
+    }
+    .search .title{
+        text-align: center;
+        
+    }
+    .search .sides{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .leftside input::placeholder {
+        font-size: 20px;
+    }
+        /* footer*/
+        footer .logo{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        footer .copyrights{
+            font-size: 24px;
+            color: #5f5f5f;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+
+@media (max-width: 449px){
+    header nav {
+        display: none;
+    }
+    header .menu{
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    header .menu-icon{
+        width: 32px;
+        height: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    header .menu-icon div{
+        height: 6px;
+        background-color: white;
+    } 
+    header .container {
+        gap:10px;
+    }
+
+
+    /* search area */
+
+    .search{
+        padding-bottom: 30px;
+    }
+    .search .title{
+        text-align: center;
+    }
+    .search .sides{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* hero area */
+    .hero .container{
+        flex-direction: column;
+    }
+    .hero .leftside{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .hero .rightside{
+        padding-bottom: 50px;
+    }
+    .hero .rightside img{
+        height: 300px;
+    }
+    .hero h1{
+        font-size: 44px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+    .hero .button {
+        padding: 12px 50px;
+    }
+    .hero p {
+        font-size:17px;
+        line-height: 26px;
+        margin: 30px 0px;
+    }
+    .search{
+        padding-bottom: 30px;
+    }
+    .search .title{
+        text-align: center;
+    }
+    .search .sides{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .leftside input::placeholder {
+        font-size: 15px;
+    }
+/* footer */
+    footer .container{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .logo{
+       margin: 0;
+    }
+    footer .copyrights{
+        margin: 0;
+    }
+
+}
